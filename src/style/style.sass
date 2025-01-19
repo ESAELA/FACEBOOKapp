@@ -1,0 +1,19 @@
+@use "mixins"
+
+   
+
+.contents
+    @include mixins.contents-grid
+
+.header-contents 
+    display: grid
+     
+
+    h2
+        font-size: 30px
+        align-items: center
+
+.Cols
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+

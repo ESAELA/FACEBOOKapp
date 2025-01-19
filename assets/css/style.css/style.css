@@ -1,0 +1,18 @@
+.contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.header-contents {
+  display: grid;
+}
+.header-contents h2 {
+  font-size: 30px;
+  align-items: center;
+}
+
+.Cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}/*# sourceMappingURL=style.css.map */
