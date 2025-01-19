@@ -3,14 +3,14 @@
 function NewPage () {
     return (
         <div>
-            <nav className="bg-red-500 flex items-center justify-center text-white h-[80px]">
+            <nav className="bg-red-500 flex items-center justify-center text-white h-[85px]">
 
                 <div className="flex items-center">
-                    <div className="flex items-center">
+                    <div className="flex items-center mr-[430px]">
                         <img
-                            className="fb_logo _8ilh cursor-pointer img w-[230px] mt-[2px] h-[100px]" bg-white src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">    
+                            className="fb_logo _8ilh cursor-pointer img w-[230px] mt-[20px] h-[100px]" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">    
                         </img>
-                        <a className="bg-green-500 flex w-[70px] h-[30px] mt-[7px] ml-[-20px] items-center justify-center rounded-sm text-sm" href="">Registrar</a>
+                        <a className="bg-green-500 flex w-[70px] h-[30px] mb-[-24px] ml-[-13px] items-center justify-center rounded-sm text-sm" href="">Registrar</a>
                     </div>
                 </div>
 
