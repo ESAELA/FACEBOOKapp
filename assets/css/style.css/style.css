@@ -23,4 +23,20 @@
 }
 #BotaoIniciar:hover {
   background-color: #4186f5;
+}
+
+#IniciarSessao {
+  background-color: #1877f2;
+  transition: 0.4s;
+}
+#IniciarSessao:hover {
+  background-color: #5da2fc;
+}
+
+#ButtonSearch {
+  background-color: #1877f2;
+  transition: 0.4s;
+}
+#ButtonSearch:hover {
+  background-color: #5da2fc;
 }/*# sourceMappingURL=style.css.map */
