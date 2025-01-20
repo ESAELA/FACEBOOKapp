@@ -7,12 +7,14 @@ function LoginPage () {
 
                 <div>
                     <img 
-                     class="fb_logo _8ilh img w-64 gap-0" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+                     class="fb_logo _8ilh img w-64 gap-0 mb-[-12px]" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
                     </img>
-                </div>
+                
                 <h2 className="w-[500px] ml-6">
                     O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
                 </h2>
+
+                </div>
             </div>
             <div className="header-contents">
                 <form className="bg-white w-[370px] h-[327px] rounded-md shadow-lg mt-[115px] flex justify-center items-center" action="">
@@ -24,7 +26,7 @@ function LoginPage () {
                             Não sabes a tua palavra-passe?
                         </a>
                         	<div class="button" className="border-t-[1px] w-[360px] text-base text-center mt-[11px] flex justify-center p-[5px] ">
-                                <a href="registeraccount"  id="Secondarybutton" class="bg-lime-500 h-12 flex justify-center items-center w-[160px] font-bold mt-4 rounded-md text-white hover:bg-lime-600">Criar nova conta</a>
+                                <a id="BotaoCriarNovaConta" href="registeraccount"   class="h-12 flex justify-center items-center w-[160px] font-bold mt-4 rounded-md text-white">Criar nova conta</a>
                             </div>
                     </div>
                 </form>
