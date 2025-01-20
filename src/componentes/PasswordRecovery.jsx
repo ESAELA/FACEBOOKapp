@@ -30,7 +30,7 @@ function PasswordRecovery () {
                 </div>
                 <div className="ml-2 p-4 mt-[23px] border-t-[1px] border-gray-200 flex justify-end gap-2">
                     <button className="bg-gray-300 w-[100px] h-9 rounded-md " type="submit">Cancelar</button>
-                    <button id="ButtonSearch" className="w-[110px] h-9 rounded-md text-white"  type="submit">Pesquisar</button>
+                    <button id="ButtonSearch" className="w-[110px] h-9 rounded-md text-white font-medium"   type="submit">Pesquisar</button>
                 </div>
             </div>
         </div>
