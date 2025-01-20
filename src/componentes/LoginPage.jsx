@@ -19,8 +19,8 @@ function LoginPage () {
                     <div className="flex flex-col items-center gap-3">
                         <input className="h-12 border w-[330px] focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
                         <input className="h-12 border w-[330px] focus:outline-none rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="password" name="" id="" placeholder="Palavra-passe" />
-                        <a className=" bg-blue-700 hover:bg-blue-600 w-[330px] rounded-md h-11 text-white font-bold text-xl flex justify-center items-center  " type="submit">Iniciar sessão</a>
-                        <a className="text-blue-600 hover:underline " href="/passwordrecovery">
+                        <a id="BotaoIniciar" className=" w-[330px] rounded-md h-11 text-white font-bold text-xl flex justify-center items-center  " type="submit">Iniciar sessão</a>
+                        <a  className="text-blue-600 hover:underline " href="/passwordrecovery">
                             Não sabes a tua palavra-passe?
                         </a>
                         	<div class="button" className="border-t-[1px] w-[360px] text-base text-center mt-[11px] flex justify-center p-[5px] ">

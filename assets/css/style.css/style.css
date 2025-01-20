@@ -15,4 +15,12 @@
 .Cols {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+#BotaoIniciar {
+  background-color: #0866FF;
+  transition: 0.4s;
+}
+#BotaoIniciar:hover {
+  background-color: #4186f5;
 }/*# sourceMappingURL=style.css.map */
