@@ -18,22 +18,23 @@ function NewPage () {
                     <a className="text-sm" href="">Aderir ou iniciar sessão no Facebook</a>
                     <img src="/src/icons/icon.svg" alt="" className="w-[8px] mt-[4px]  " />
 
-                    <form id="dropdownFormulario" action="" className="bg-red-200 shadow-md absolute">
-                    <label htmlFor="" className="text-gray-600">E-mail ou telemóvel</label>
-                    <input type="email" name="" id="" />
-                    <label htmlFor="" className="text-gray-600">Palavra-passe</label>
-                    <input type="password" name="" id="" />
-                    <a href="">
-                        Esqueceste-te da tua conta?
-                    </a>
-                    <a href="">Iniciar sessão</a>
-                    <div>
-                        <p>Queres aderir ao Facebook?</p>
-                        <a href="">Registra-te</a>
-                    </div>
+                    <form id="headerdropdown" action="" className="bg-white shadow-md absolute rounded-sm">
+                        <div id="headerdropdown-largura" className="pt-[8px]">
+                            <label  htmlFor="" className="text-gray-600 text-sm">E-mail ou telemóvel</label>
+                            <input className="h-[33px] border-[1px] border-gray-300 " type="email" name="" id="" />
+                            <label htmlFor="" className="text-gray-600 text-sm ">Palavra-passe</label>
+                            <input  className="h-[33px] border-[1px] border-gray-300 " type="password" name="" id="" />
+                            <a href="" className="hover:underline text-blue-600 text-sm flex justify-end">
+                                Esqueceste-te da tua conta?
+                            </a>
+                            <a id="headerdropdown-IniciarSessao" className="h-[30px] flex items-center justify-center rounded-sm mt-2" href="">Iniciar sessão</a>
+                        </div>
+                            <div id="headerdropdown-Paragrafo" className="bg-gray-400">
+                                <p className="text-[12px]">Queres aderir ao Facebook?</p>
+                                <a className="text-[12px]" href="">Registra-te</a>
+                            </div>   
                     </form>
                 </div>
-
             </nav>
             <div className="flex flex-col justify-center items-center p-[20px] gap-[40px] ">
                 <div className="flex flex-col mr-[68px]">

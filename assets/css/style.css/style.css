@@ -48,11 +48,29 @@
   background-color: #43a730;
 }
 
-#dropdownFormulario {
+#headerdropdown {
   width: 275px;
-  height: 250px;
+  height: 270px;
   margin-top: 35px;
   margin-left: -20px;
   display: flex;
   flex-direction: column;
+}
+#headerdropdown-largura {
+  width: 245px;
+  height: 190px;
+  margin: auto;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#headerdropdown-IniciarSessao {
+  background-color: red;
+}
+#headerdropdown-Paragrafo {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
