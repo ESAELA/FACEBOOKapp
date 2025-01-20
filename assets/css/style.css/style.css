@@ -27,10 +27,9 @@
 
 #IniciarSessao {
   background-color: #1877f2;
-  transition: 0.4s;
 }
 #IniciarSessao:hover {
-  background-color: #5da2fc;
+  background-color: #056ef7;
 }
 
 #ButtonSearch {
@@ -38,5 +37,13 @@
   transition: 0.4s;
 }
 #ButtonSearch:hover {
-  background-color: #5da2fc;
+  background-color: #056ef7;
+}
+
+#BotaoCriarNovaConta {
+  background-color: #42B72A;
+  transition: 0.4s;
+}
+#BotaoCriarNovaConta:hover {
+  background-color: #43a730;
 }/*# sourceMappingURL=style.css.map */
