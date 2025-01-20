@@ -3,7 +3,7 @@
 function NewPage () {
     return (
         <div>
-            <nav className="bg-red-500 flex items-center justify-center text-white h-[85px]">
+            <nav className="bg-red-500 flex items-center justify-center text-white h-[87px]">
 
                 <div className="flex items-center">
                     <div className="flex items-center mr-[430px]">
@@ -17,8 +17,22 @@ function NewPage () {
                 <div className="mb-[-6px] flex justify-between gap-[7px]">
                     <a className="text-sm" href="">Aderir ou iniciar sessão no Facebook</a>
                     <img src="/src/icons/icon.svg" alt="" className="w-[8px] mt-[4px]  " />
+
+                    <form id="dropdownFormulario" action="" className="bg-red-200 shadow-md absolute">
+                    <label htmlFor="" className="text-gray-600">E-mail ou telemóvel</label>
+                    <input type="email" name="" id="" />
+                    <label htmlFor="" className="text-gray-600">Palavra-passe</label>
+                    <input type="password" name="" id="" />
+                    <a href="">
+                        Esqueceste-te da tua conta?
+                    </a>
+                    <a href="">Iniciar sessão</a>
+                    <div>
+                        <p>Queres aderir ao Facebook?</p>
+                        <a href="">Registra-te</a>
+                    </div>
+                    </form>
                 </div>
-                
 
             </nav>
             <div className="flex flex-col justify-center items-center p-[20px] gap-[40px] ">
