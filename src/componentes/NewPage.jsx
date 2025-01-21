@@ -20,17 +20,17 @@ function NewPage () {
 
                     <form id="headerdropdown" action="" className="bg-white shadow-md absolute rounded-sm">
                         <div id="headerdropdown-largura" className="pt-[8px]">
-                            <label  htmlFor="" className="text-gray-600 text-sm font-medium">E-mail ou telemóvel</label>
+                            <label  htmlFor="" className="text-gray-600 text-sm font-medium ml-[-1px] ">E-mail ou telemóvel</label>
                             <input className="h-[33px] border-[1px] border-gray-300 " type="email" name="" id="" />
-                            <label htmlFor="" className="text-gray-600 text-sm font-medium">Palavra-passe</label>
+                            <label htmlFor="" className="text-gray-600 text-sm font-medium ml-[-1px]">Palavra-passe</label>
                             <input  className="h-[33px] border-[1px] border-gray-300 " type="password" name="" id="" />
-                            <a href="" className="hover:underline text-blue-600 text-sm flex justify-end">
+                            <a href="" className="hover:underline text-blue-600 text-[12px] flex justify-end">
                                 Esqueceste-te da tua conta?
                             </a>
-                            <a id="headerdropdown-IniciarSessao" className="h-[30px] flex items-center justify-center rounded-sm mt-2" href="">Iniciar sessão</a>
+                            <a id="headerdropdown-IniciarSessao" className="h-[30px] w-[227px] text-sm flex items-center justify-center rounded-sm mt-2" href="">Iniciar sessão</a>
                         </div>
-                            <div id="headerdropdown-Paragrafo" className="bg-gray-50">
-                                <p className="text-[12px] text-gray-500">Queres aderir ao Facebook?</p>
+                            <div id="headerdropdown-Paragrafo" className="bg-gray-100">
+                                <p className="text-[12px] text-gray-500 font-semibold ">Queres aderir ao Facebook?</p>
                                 <a id="headerdropdown-button" className=" text-[12px] rounded-sm" href="">Regista-te</a>
                             </div>   
                     </form>

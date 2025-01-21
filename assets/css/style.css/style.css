@@ -65,7 +65,11 @@
   flex-direction: column;
 }
 #headerdropdown-IniciarSessao {
-  background-color: red;
+  background-color: #1877f2;
+  transition: 0.4s;
+}
+#headerdropdown-IniciarSessao:hover {
+  background-color: #056ef7;
 }
 #headerdropdown-Paragrafo {
   height: 85px;
