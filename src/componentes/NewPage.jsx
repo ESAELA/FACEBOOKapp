@@ -24,7 +24,7 @@ function NewPage () {
                             <input className="h-[33px] border-[1px] border-gray-300 " type="email" name="" id="" />
                             <label htmlFor="" className="text-gray-600 text-sm font-medium ml-[-1px]">Palavra-passe</label>
                             <input  className="h-[33px] border-[1px] border-gray-300 " type="password" name="" id="" />
-                            <a href="" className="hover:underline text-blue-600 text-[12px] flex justify-end">
+                            <a href="" className="hover:underline text-blue-600 text-[12.5px] flex justify-end">
                                 Esqueceste-te da tua conta?
                             </a>
                             <a id="headerdropdown-IniciarSessao" className="h-[30px] w-[227px] text-sm flex items-center justify-center rounded-sm mt-2" href="">Iniciar sessão</a>
