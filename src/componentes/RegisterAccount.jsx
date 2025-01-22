@@ -28,32 +28,6 @@ function RegisterAccount () {
                     <input className="p-3 w-[220px] h-[40px] rounded-md border border-gray-300  " type="text" name="" id="" placeholder="Nome próprio" />
                     <input className="p-3 w-[200px] h-[40px] rounded-md border border-gray-300" type="text" name="" id="" placeholder="Apelido" />
                     
-                    <div id="" className="mt-[55px] mr-[290px] absolute">
-                    <select name="teste" className="w-[140px] h-[40px] bg-white rounded-md border border-gray-300 flex items-center justify-between p-2 font-medium cursor-pointer">
-                        <option value="test1" className="py-2 w-full bg-white shadow-md border border-gray-300 h-[150px] cursor-pointer">teste</option>
-                        <option value="test2">teste</option>
-                        <option value="test3">teste</option>
-                        <option value="test4">teste</option>
-                    </select>
-                    </div>
-
-                    <div id="" className="mt-[55px] mr-[290px] absolute">
-                    <select name="teste" className="w-[140px] h-[40px] bg-white rounded-md border border-gray-300 flex items-center justify-between p-2 font-medium cursor-pointer">
-                        <option value="test1" className="py-2 w-full bg-white shadow-md border border-gray-300 h-[150px] cursor-pointer">teste</option>
-                        <option value="test2">teste</option>
-                        <option value="test3">teste</option>
-                        <option value="test4">teste</option>
-                    </select>
-                    
-                    </div><div id="" className="mt-[55px] mr-[290px] absolute">
-                    <select name="teste" className="w-[140px] h-[40px] bg-white rounded-md border border-gray-300 flex items-center justify-between p-2 font-medium cursor-pointer">
-                        <option value="test1" className="py-2 w-full bg-white shadow-md border border-gray-300 h-[150px] cursor-pointer">teste</option>
-                        <option value="test2">teste</option>
-                        <option value="test3">teste</option>
-                        <option value="test4">teste</option>
-                    </select>
-                    </div>
-                    
                 </div>
             </div>
         </div>
