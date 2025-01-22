@@ -1,4 +1,4 @@
-
+///sobre a parte de responsabilidade... tailwind/sass?
 
 function LoginPage () {
     return (
