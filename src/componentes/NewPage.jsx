@@ -3,38 +3,9 @@
 function NewPage () {
     return (
         <div>
-            <nav className="bg-red-500 flex items-center justify-center text-white h-[87px]">
+            <nav id="navbar" className="flex items-center justify-center text-white h-[87px]">
 
-                <div className="flex items-center">
-                    <div className="flex items-center mr-[430px]">
-                        <img
-                            className="fb_logo _8ilh cursor-pointer img w-[230px] mt-[20px] h-[100px]" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">    
-                        </img>
-                        <a className="bg-green-500 flex w-[70px] h-[30px] mb-[-24px] ml-[-13px] items-center justify-center rounded-sm text-sm" href="">Registrar</a>
-                    </div>
-                </div>
 
-                <div className="mb-[-6px] flex justify-between gap-[7px]">
-                    <a className="text-[13px]" href="">Aderir ou iniciar sessão no Facebook</a>
-                    <img src="/src/icons/icon.svg" alt="" className="w-[8px] mt-[4px]  " />
-
-                    <form id="headerdropdown" action="" className="bg-white shadow-md absolute rounded-sm">
-                        <div id="headerdropdown-largura" className="pt-[8px]">
-                            <label  htmlFor="" className="text-gray-600 text-sm font-medium ml-[-1px] ">E-mail ou telemóvel</label>
-                            <input className="h-[33px] border-[1px] border-gray-300 " type="email" name="" id="" />
-                            <label htmlFor="" className="text-gray-600 text-sm font-medium ml-[-1px]">Palavra-passe</label>
-                            <input  className="h-[33px] border-[1px] border-gray-300 " type="password" name="" id="" />
-                            <a href="" className="hover:underline text-blue-600 text-[12.5px] flex justify-end">
-                                Esqueceste-te da tua conta?
-                            </a>
-                            <a id="headerdropdown-IniciarSessao" className="h-[30px] w-[227px] text-sm flex items-center justify-center rounded-sm mt-2" href="">Iniciar sessão</a>
-                        </div>
-                            <div id="headerdropdown-Paragrafo" className="bg-gray-100">
-                                <p className="text-[12px] text-gray-500 font-semibold ">Queres aderir ao Facebook?</p>
-                                <a id="headerdropdown-button" className=" text-[12px] rounded-sm" href="">Regista-te</a>
-                            </div>   
-                    </form>
-                </div>
             </nav>
             <div className="flex flex-col justify-center items-center p-[20px] gap-[40px] ">
                 <div className="flex flex-col mr-[68px]">
