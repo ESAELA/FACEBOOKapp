@@ -2,21 +2,18 @@
 
 function LoginPage () {
     return (
-        <div className="contents" class="flex justify-center items-center gap-[120px] ">
-            <div className="header-contents">
-                <div>
-                    <img 
-                     class="fb_logo _8ilh img w-64 gap-0 mb-[-12px]" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
-                    </img>
-                
-                <h2 className="w-[500px] ml-6">
-                    O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
-                </h2>
+        <div className="contents" class="flex justify-center items-center flex-col md:flex-row">
 
-                </div>
+            <div className="header-contents text-center md:text-left">
+                    <h1 id="facebook">
+                        facebook
+                    </h1>
+                    <h2 className=" ">
+                        O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
+                    </h2>
             </div>
+
             <div className="header-contents">
-                
                 <form className="bg-white w-[370px] h-[327px] rounded-md shadow-lg mt-[115px] flex justify-center items-center" action="">
                     <div className="flex flex-col items-center gap-3">
                         <input className="h-12 border w-[330px] focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
@@ -30,6 +27,7 @@ function LoginPage () {
                             </div>
                     </div>
                 </form>
+
                 <div className="flex mt-5 gap-1 text-center text-[13px] ml-3">
                     <a className="font-bold hover:underline" href="newpage">
                         Cria uma Página
