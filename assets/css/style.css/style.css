@@ -21,4 +21,12 @@
   font-weight: bold;
   color: #0866ff;
   font-size: 50px;
+}
+
+#BotaoIniciar {
+  background-color: #1877f2;
+}
+
+#BotaoCriarNovaConta {
+  background-color: #36a420;
 }/*# sourceMappingURL=style.css.map */
