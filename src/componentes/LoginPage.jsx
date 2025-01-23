@@ -38,21 +38,7 @@ function LoginPage () {
                         para uma celebridade, marca ou empresa.
                     </p>
                 </div>
-                <div>
-                Português (Portugal)
-                English (US)
-                Français (France)
-                Español
-                العربية         
-                Bahasa Indonesia
-                Türkçe
-                Deutsch
-                Italiano
-                हिन्दी
-                中文(简体)
-                Regista-teIniciar sessãoMessengerFacebook LiteVídeoLocaisJogosMarketplaceMeta PayLoja MetaMeta QuestRay-Ban MetaMeta AIInstagramThreadsAngariações de fundosServiçosCentro de informação sobre eleiçõesPolítica de PrivacidadeCentro de PrivacidadeGruposSobreCriar anúncioCriar PáginaProgramadoresEmpregosCookiesAdChoicesTermosAjudaCarregamento de contactos e não utilizadoresDefiniçõesRegisto de atividade
-                Meta © 2025
-                </div>
+              
             </div>
         </div>
     )
