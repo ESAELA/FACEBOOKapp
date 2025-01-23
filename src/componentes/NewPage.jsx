@@ -2,12 +2,11 @@
 
 function NewPage () {
     return (
-        <div>
-            <nav id="navbar" className="flex items-center justify-center text-white h-[87px]">
+        <div className="w-screen h-screen bg-gray-300">
+            <div className="w-[1020px]">
+                <nav id="navbar" className="flex items-center  justify-center text-white w-full h-[87px]">
 
-
-            </nav>
-            <div className="flex flex-col justify-center items-center p-[20px] gap-[40px] ">
+                </nav>
                 <div className="flex flex-col mr-[68px]">
                     <div>
                         <h1 className="font-bold text-[23px]">
@@ -20,7 +19,9 @@ function NewPage () {
                     </span>
                     </div>
                 </div>
-                <div class="Cols grid grid-cols-2 gap-[20px]">
+            </div>
+
+                <div class="flex">
                     <div className="bg-white rounded-md shadow-md h-[440px] w-[450px] flex flex-col items-center p-[30px] border-[1px] border-gray-200"> 
                         <img src="/src/img/biz_illustration.png" alt="" className="w-[170px]" />
                         <div className="flex flex-col items-center p-[30px] gap-[8px]">
@@ -54,7 +55,6 @@ function NewPage () {
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }
