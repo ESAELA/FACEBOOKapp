@@ -3,9 +3,9 @@
 function LoginPage () {
     return (
         <div class="flex justify-center items-center w-screen h-screen flex-col md:flex-row">
-            <div className="flex flex-col justify-center items-center text-center md:text-left md:mr-20 mb-28 gap-1 py-10">
+            <div className="flex flex-col justify-center items-center text-center md:text-left md:mr-28 md:mb-36 gap-1 py-10">
                 <div className="w-400">
-                    <h1 id="facebook" className="">
+                    <h1 id="facebook"  className="">
                         facebook
                     </h1>
                 </div>
@@ -24,8 +24,8 @@ function LoginPage () {
                         <a  className="text-blue-600 hover:underline " href="/passwordrecovery">
                             Não sabes a tua palavra-passe?
                         </a>
-                        	<div class="button" className="border-t-[1px] w-full text-base text-center flex justify-center">
-                                <a id="BotaoCriarNovaConta" href="registeraccount"   class="h-12 flex justify-center items-center w-40 font-bold mt-4 rounded-md text-white">Criar nova conta</a>
+                        	<div class="button" className="border-t-[1px] w-full text-base text-center flex justify-center  md:mb-4">
+                                <a id="BotaoCriarNovaConta" href="registeraccount"   class="h-12 flex justify-center items-center mt-4 w-40 font-bold md:mt-10 rounded-md text-white">Criar nova conta</a>
                             </div>
                     </div>
                 </form>
