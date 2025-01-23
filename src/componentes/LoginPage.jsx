@@ -3,7 +3,7 @@
 function LoginPage () {
     return (
         <div class="flex justify-center items-center w-screen h-screen flex-col md:flex-row">
-            <div className="flex flex-col justify-center items-center text-center md:text-left gap-1  py-10">
+            <div className="flex flex-col justify-center items-center text-center md:text-left gap-1 py-10">
                 <div className="w-400">
                     <h1 id="facebook" className="">
                         facebook
@@ -30,15 +30,14 @@ function LoginPage () {
                     </div>
                 </form>
 
-                <div className="flex text-center mt-5 gap-1">
-                    <a className="font-bold hover:underline " href="newpage">
+                <div id="contents-p" className="flex text-center mt-5 gap-1">
+                    <a className="font-bold  hover:underline ml-2" href="newpage">
                         Cria uma Página
                     </a>
                     <p>
                         para uma celebridade, marca ou empresa.
                     </p>
                 </div>
-              
             </div>
         </div>
     )
