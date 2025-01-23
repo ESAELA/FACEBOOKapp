@@ -16,7 +16,7 @@ function LoginPage () {
                 </div>        
             </div>
             <div className="header-contents">
-                <form className="bg-white m-auto w-400 h-320 md:w-370 md:h-350 rounded-md shadow-lg flex justify-center items-center" action="">
+                <form className="bg-white m-auto w-400 h-320 md:w-370 md:h-350 rounded-md shadow-xl flex justify-center items-center" action="">
                     <div className="flex flex-col w-370 items-center gap-3 md:w-340">
                         <input className="input-components w-full" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
                         <input className="input-components w-full" type="password" name="" id="" placeholder="Palavra-passe" />
@@ -30,11 +30,11 @@ function LoginPage () {
                     </div>
                 </form>
 
-                <div id="contents-p" className="flex text-center mt-5 gap-1 ">
-                    <a className="font-bold  hover:underline ml-2" href="newpage">
+                <div id="contents-p" className="flex text-center md:text-3xl mt-5 gap-1 ">
+                    <a className="font-bold  md:text-[13.5px] hover:underline ml-2" href="newpage">
                         Cria uma Página
                     </a>
-                    <p>
+                    <p className="md:text-[13.7px]">
                         para uma celebridade, marca ou empresa.
                     </p>
                 </div>
