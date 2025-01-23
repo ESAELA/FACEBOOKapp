@@ -2,8 +2,7 @@
 
 function LoginPage () {
     return (
-        <div className="contents" class="flex justify-center items-center flex-col md:flex-row">
-
+        <div className="contents" class="flex justify-center w-screen h-screen items-center flex-col md:flex-row">
             <div className="header-contents text-center md:text-left">
                     <h1 id="facebook">
                         facebook
@@ -12,12 +11,11 @@ function LoginPage () {
                         O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
                     </h2>
             </div>
-
             <div className="header-contents">
-                <form className="bg-white w-[370px] h-[327px] rounded-md shadow-lg mt-[115px] flex justify-center items-center" action="">
+                <form className="bg-white w-[370px] h-[327px] rounded-md shadow-lg flex justify-center items-center" action="">
                     <div className="flex flex-col items-center gap-3">
-                        <input className="h-12 border w-[330px] focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
-                        <input className="h-12 border w-[330px] focus:outline-none rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="password" name="" id="" placeholder="Palavra-passe" />
+                        <input className="h-12 border w-full focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
+                        <input className="h-12 border w-full focus:outline-none rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="password" name="" id="" placeholder="Palavra-passe" />
                         <a id="BotaoIniciar" className=" w-[330px] rounded-md h-11 text-white font-bold text-xl flex justify-center items-center  " type="submit">Iniciar sessão</a>
                         <a  className="text-blue-600 hover:underline " href="/passwordrecovery">
                             Não sabes a tua palavra-passe?
@@ -28,7 +26,7 @@ function LoginPage () {
                     </div>
                 </form>
 
-                <div className="flex mt-5 gap-1 text-center text-[13px] ml-3">
+                <div className="flex text-center">
                     <a className="font-bold hover:underline" href="newpage">
                         Cria uma Página
                     </a>
