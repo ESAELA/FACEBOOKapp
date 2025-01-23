@@ -5,6 +5,7 @@
 #facebook {
   font-weight: bold;
   color: #0866ff;
+  font-size: 55px;
 }
 
 #BotaoIniciar {
@@ -13,4 +14,9 @@
 
 #BotaoCriarNovaConta {
   background-color: #36a420;
+}
+
+#facebook-title {
+  font-size: 25px;
+  line-height: 26px;
 }/*# sourceMappingURL=style.css.map */

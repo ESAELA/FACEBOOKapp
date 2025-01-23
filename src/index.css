@@ -4,6 +4,6 @@
 
 @layer components {
         .input-components {
-          @apply h-12 border w-full focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg;
+          @apply h-12 border md:w-full focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg;
         }
       }

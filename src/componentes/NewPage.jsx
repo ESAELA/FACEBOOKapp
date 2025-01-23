@@ -20,7 +20,7 @@ function NewPage () {
                     </span>
                     </div>
                 </div>
-                <div class="Cols gap-[20px]">
+                <div class="Cols grid grid-cols-2 gap-[20px]">
                     <div className="bg-white rounded-md shadow-md h-[440px] w-[450px] flex flex-col items-center p-[30px] border-[1px] border-gray-200"> 
                         <img src="/src/img/biz_illustration.png" alt="" className="w-[170px]" />
                         <div className="flex flex-col items-center p-[30px] gap-[8px]">
