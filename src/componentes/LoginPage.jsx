@@ -3,14 +3,14 @@
 function LoginPage () {
     return (
         <div class="flex justify-center items-center w-screen h-screen flex-col md:flex-row">
-            <div className="flex flex-col justify-center items-center text-center md:text-left gap-1 py-10">
+            <div className="flex flex-col justify-center items-center text-center md:text-left md:mr-20 mb-28 gap-1 py-10">
                 <div className="w-400">
                     <h1 id="facebook" className="">
                         facebook
                     </h1>
                 </div>
                 <div id="facebook-title" className="w-400 font-normal text-sm">
-                    <h2 className="">
+                    <h2 className="md:text-2xl">
                         O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
                     </h2>
                 </div>        
@@ -30,7 +30,7 @@ function LoginPage () {
                     </div>
                 </form>
 
-                <div id="contents-p" className="flex text-center mt-5 gap-1">
+                <div id="contents-p" className="flex text-center mt-5 gap-1 ">
                     <a className="font-bold  hover:underline ml-2" href="newpage">
                         Cria uma Página
                     </a>

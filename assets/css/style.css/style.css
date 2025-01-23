@@ -10,10 +10,19 @@
 
 #BotaoIniciar {
   background-color: #1877f2;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#BotaoIniciar:hover {
+  background-color: #2b81f1;
 }
 
 #BotaoCriarNovaConta {
   background-color: #36a420;
+  transition: 0.4s;
+}
+#BotaoCriarNovaConta:hover {
+  background-color: #229c0a;
 }
 
 #facebook-title {
