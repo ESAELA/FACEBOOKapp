@@ -12,10 +12,10 @@ function LoginPage () {
                     </h2>
             </div>
             <div className="header-contents">
-                <form className="bg-white w-[370px] h-[327px] rounded-md shadow-lg flex justify-center items-center" action="">
-                    <div className="flex flex-col items-center gap-3">
-                        <input className="h-12 border w-full focus:outline-none  rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
-                        <input className="h-12 border w-full focus:outline-none rounded-md border-gray-300 p-4 focus:border-solid focus:border-blue-600 focus:shadow-lg" type="password" name="" id="" placeholder="Palavra-passe" />
+                <form className="bg-white md:w-500 md:h-400 rounded-md shadow-lg flex justify-center items-center" action="">
+                    <div className="flex flex-col items-center gap-3 md:w-460">
+                        <input className="input-components" type="email" name="" id="" placeholder="E-mail ou número do telémovel" />
+                        <input className="input-components" type="password" name="" id="" placeholder="Palavra-passe" />
                         <a id="BotaoIniciar" className=" w-[330px] rounded-md h-11 text-white font-bold text-xl flex justify-center items-center  " type="submit">Iniciar sessão</a>
                         <a  className="text-blue-600 hover:underline " href="/passwordrecovery">
                             Não sabes a tua palavra-passe?
